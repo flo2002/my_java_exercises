@@ -1,0 +1,10 @@
+{
+  "_port": 8899,
+  "_root": "testFSDir",
+  "_users": [
+    {
+      "_username": "admin",
+      "_password": "admin"
+    }
+  ]
+}

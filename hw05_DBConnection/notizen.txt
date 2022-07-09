@@ -1,0 +1,18 @@
+App
+	Main
+		new DBFactory
+	10:
+		DBFactory.newDBConnection()
+	
+
+DBFactory
+	DBPool (maxCons)
+	newDBConnection
+	
+	
+
+DBConnection
+	connect
+	disconnect
+
+neue Klasse DBChecker, die die while loop ausführt

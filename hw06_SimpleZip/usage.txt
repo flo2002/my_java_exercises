@@ -1,0 +1,5 @@
+compile & run from res:
+    javac ../src/simplezip.java
+    java -cp ../src simplezip -p ../archive.zip
+
+java -cp ./src simplezip -u archive.zip

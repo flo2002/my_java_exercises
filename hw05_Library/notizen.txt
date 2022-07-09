@@ -1,0 +1,45 @@
+User <<abstract class>>
+	Student
+	Teacher
+	Extern
+	
+	id
+	firstname
+	lastname
+	street
+	city
+	country
+	userCategory 
+	
+	abstract getLendingPeriod(RentObject)
+	abstract getLendingPrice()
+	abstract getMaxExtensions()
+
+Rent
+	rentObjectID	
+	userID
+	rentDate
+	returnDate
+
+	getRentedObjects()
+
+Reservation
+	id 
+	reserve()
+
+RentObject <<abstract class>>
+	abstract: id
+
+	getAllObjects()		// ?
+		
+	Book
+	VideoGame
+	Video
+	Newspaper
+	CD
+
+Interface historable (für arrayLists + ids + getAll) ?
+
+price in cents
+periods in days
+
